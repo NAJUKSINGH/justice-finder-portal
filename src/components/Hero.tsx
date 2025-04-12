@@ -1,7 +1,12 @@
 
 import { Link } from 'react-router-dom';
+import { ExternalLink } from 'lucide-react';
+import { Button } from './ui/button';
 
 const Hero = () => {
+  // External link URL - Replace this with your specific URL
+  const externalLinkUrl = "https://example.com";
+  
   return (
     <div className="bg-law-navy text-white py-16 md:py-24">
       <div className="container-custom">
@@ -21,6 +26,12 @@ const Hero = () => {
               <Link to="/case-studies" className="bg-transparent border border-white text-white hover:bg-white/10 font-semibold py-2 px-4 rounded transition-all text-center">
                 View Case Studies
               </Link>
+              <Button variant="outline" className="border-law-gold text-law-gold hover:bg-law-gold/10 gap-2">
+                <a href={externalLinkUrl} target="_blank" rel="noopener noreferrer" className="flex items-center">
+                  Legal Resources
+                  <ExternalLink size={16} />
+                </a>
+              </Button>
             </div>
           </div>
           <div className="hidden md:block">
