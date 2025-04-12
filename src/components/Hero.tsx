@@ -4,8 +4,8 @@ import { ExternalLink } from 'lucide-react';
 import { Button } from './ui/button';
 
 const Hero = () => {
-  // External link URL - Replace this with your specific URL
-  const externalLinkUrl = "https://example.com";
+  // External link URL for the chatbot
+  const externalLinkUrl = "https://cdn.botpress.cloud/webchat/v2.3/shareable.html?configUrl=https://files.bpcontent.cloud/2025/04/12/12/20250412122734-Z92OV32U.json";
   
   return (
     <div className="bg-law-navy text-white py-16 md:py-24">
