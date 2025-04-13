@@ -28,7 +28,7 @@ const Hero = () => {
               </Link>
               <Button variant="outline" className="border-law-gold text-law-gold hover:bg-law-gold/10 gap-2">
                 <a href={externalLinkUrl} target="_blank" rel="noopener noreferrer" className="flex items-center">
-                  AI Bot
+                  Legal Resources
                   <ExternalLink size={16} />
                 </a>
               </Button>

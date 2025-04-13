@@ -44,7 +44,7 @@ export const lawyers: Lawyer[] = [
   },
   {
     id: 2,
-    name: "Sarthak Singh",
+    name: "Marcus Williams",
     image: "https://images.unsplash.com/photo-1556157382-97eda2d62296?q=80&w=2070&auto=format&fit=crop",
     specialization: ["Family Law", "Divorce"],
     location: "Chicago, IL",

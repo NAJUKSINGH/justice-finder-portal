@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { caseStudies, CaseStudy } from '../data/CaseStudies';
+import { caseStudies, CaseStudy } from '../data/caseStudies';
 import CaseStudyCard from '../components/CaseStudyCard';
 import { Search, Filter } from 'lucide-react';
 
